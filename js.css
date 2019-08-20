@@ -1,18 +1,23 @@
+
+
 body, html{
-    width: 100%;
-    height: 100%;
-    margin: 0;
+  margin: 0;
 }
 
-header{
+header, footer{
     background-color: #606061;
     height: 100px;
+}
+
+footer{
+    position: relative;
+    top: 292px;
 }
 
 .magazine_logo{
     width: 71px;
     height: 50px;
-    margin-left: 30px;
+    margin-left: 60px;
     margin-top: 25px;
 }
 
@@ -22,6 +27,7 @@ header{
     position: absolute;
     
 }
+
 .top_menu{
     margin: 0;
     padding: 0;
@@ -38,11 +44,11 @@ ul {
 
 
 a{
-    text-decoration: none; 
+  text-decoration: none; 
 }
 
 .top_menu  li{
-    display: inline;
+  display: inline;
 }
 
 .title-menu{
@@ -59,34 +65,45 @@ a{
     color: #fff;
 }
 
-.all-button{
+.home_page{
     margin-left: 60px;
-    margin-top: 50px;
     margin-right: 60px;
+    
+}
+
+.all-button{
+    margin-top: 50px;
     flex-direction: row;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-
 .field-input{
     padding-left: 8px;
     border: 2px solid #8bf73e;
     border-radius: 2px;
     height: 30px;
-    
+    width: 200px; 
 }
 
+.field-input-search{
+    padding-left: 8px;
+    border: 2px solid #8bf73e;
+    border-radius: 2px;
+    height: 30px;
+    width: 220px;
+}
 .label_filter{
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
     line-height: 33px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    color: #bdbfbb;
 }
 
 .filter-button{
-    margin-left: 60px;
     margin-top: 50px;
 }
 
@@ -95,6 +112,7 @@ a{
     height: 60px;
     text-transform:uppercase;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .search-button{
@@ -115,6 +133,44 @@ a{
 .clear-button:hover{
     color: #8bf73e;
 }
+
+///////////////*home_page*//////////////
+.home_page_title{
+
+}
+
+.home-title, .home-title-describe{
+    text-align: center;
+    margin-top: 70px;
+    color: #8bf73e;
+}
+
+.home-title-describe{
+    color: #606061;
+    font-size: 18px;
+}
+
+.adda{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
